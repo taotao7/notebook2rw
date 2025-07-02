@@ -1,5 +1,5 @@
 {
-  "name": "notebook2rw",
+  "name": "@taotao7/notebook2rw",
   "version": "0.1.0",
   "description": "",
   "main": "dist/main.mjs",
