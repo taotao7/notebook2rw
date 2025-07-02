@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "notebook-rw": {
+      "command": "node",
+      "args": ["dist/main.mjs"],
+      "cwd": "/Users/tao/workspace/notebook2rw",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

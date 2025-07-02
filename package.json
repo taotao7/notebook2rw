@@ -1,0 +1,30 @@
+{
+  "name": "notebook2rw",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/main.mjs",
+  "bin": {
+    "notebook2rw": "dist/main.mjs"
+  },
+  "scripts": {
+    "build": "tsup main.ts --format esm --target node18",
+    "dev": "tsx main.ts",
+    "start": "node dist/main.mjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.1",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

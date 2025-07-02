@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "notebook-rw": {
+      "command": "/Users/tao/workspace/notebook2rw/start-mcp.sh",
+      "args": [],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
