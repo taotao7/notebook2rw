@@ -4,7 +4,6 @@
   "description": "Jupyter Notebook Read/Write MCP Server",
   "main": "dist/main.mjs",
   "bin": {
-    "@taotao7/notebook2rw": "dist/main.mjs",
     "notebook2rw": "dist/main.mjs"
   },
   "scripts": {
