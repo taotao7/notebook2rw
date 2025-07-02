@@ -1,6 +1,6 @@
 {
   "name": "@taotao7/notebook2rw",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Jupyter Notebook Read/Write MCP Server",
   "main": "dist/main.mjs",
   "bin": {
