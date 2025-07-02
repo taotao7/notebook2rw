@@ -25,32 +25,29 @@ pnpm build
 
 ## 运行
 
-```bash
+````bash
 # 开发模式
 pnpm dev
 
 # 生产模式
 node dist/main.mjs
 
-# 使用启动脚本
-./start-mcp.sh
-```
-
-## 🚀 快速配置 Claude Desktop
-
-运行一键配置脚本：
+## 使用
 
 ```bash
-./install-claude-config.sh
+npx notebook2rw
+````
+
+```json
+{
+  "mcpServers": {
+    "notebook-rw": {
+      "command": "npx",
+      "args": ["-y", "@taotao7/notebook2rw"]
+    }
+  }
+}
 ```
-
-这将自动：
-
-- 创建 Claude Desktop 配置文件
-- 备份现有配置（如果存在）
-- 设置正确的 MCP 服务器路径
-
-配置完成后，重启 Claude Desktop 即可使用！
 
 ## 支持的工具
 
