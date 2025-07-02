@@ -1,22 +1,39 @@
 {
   "name": "@taotao7/notebook2rw",
   "version": "0.1.0",
-  "description": "",
+  "description": "Jupyter Notebook Read/Write MCP Server",
   "main": "dist/main.mjs",
   "bin": {
+    "@taotao7/notebook2rw": "dist/main.mjs",
     "notebook2rw": "dist/main.mjs"
   },
   "scripts": {
     "build": "tsup main.ts --format esm --target node18",
     "dev": "tsx main.ts",
-    "start": "node dist/main.mjs"
+    "start": "node dist/main.mjs",
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist"
   ],
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "jupyter",
+    "notebook",
+    "mcp",
+    "server",
+    "read",
+    "write"
+  ],
+  "author": "taotao7",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taotao7/notebook2rw.git"
+  },
+  "homepage": "https://github.com/taotao7/notebook2rw#readme",
+  "bugs": {
+    "url": "https://github.com/taotao7/notebook2rw/issues"
+  },
   "packageManager": "pnpm@10.6.1",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.3"
